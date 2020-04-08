@@ -67,7 +67,7 @@ class CaseStudiesPage extends StatelessWidget {
             Padding(
         padding: const EdgeInsets.symmetric(vertical: 20.0),
         child: Image.asset(
-          "assets/images/hero.png",
+          "assets/images/frog.jpg",
           width: width,
         ),
       ),
