@@ -27,7 +27,7 @@ class DemoPage extends StatelessWidget {
                     alignment: Alignment.centerLeft,
                     child: Container(
                       child: Text(
-                        "Free advice to solve your new marketing problems.",
+                        "Helping businesses solve new marketing problems.",
                         style: TextStyle(fontSize: 32.0, color: Colors.white),
                       ),
                     ),
@@ -52,7 +52,7 @@ class DemoPage extends StatelessWidget {
             Padding(
         padding: const EdgeInsets.symmetric(vertical: 20.0),
         child: Image.asset(
-          "assets/images/demo.png",
+          "assets/images/analytics.jpg",
           width: width,
         ),
       ),
