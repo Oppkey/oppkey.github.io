@@ -26,7 +26,7 @@ class AboutPage extends StatelessWidget {
               child: Column(
                 children: <Widget>[
                   Text(
-                    "Learn how you can benefit from changes to PR and marketing. Apply the brainpower of hundreds of advocates.",
+                    "Benefit from changes to PR and marketing. Apply the brainpower of hundreds of advocates.",
                     style: TextStyle(fontSize: 32.0, color: Colors.white),
                   ),
                 ],
