@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:oppkey/Demo/Demo.dart';
 import 'dart:html' as html;
 import 'dart:js' as js;
+import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
 class AboutPage extends StatelessWidget {
   List<Widget> pageChildren(double width, BuildContext context) {
@@ -76,7 +77,7 @@ class AboutPage extends StatelessWidget {
                   child: Column(
                     children: <Widget>[
                       Icon(
-                        Icons.poll,
+                        FontAwesomeIcons.rocket,
                         size: 128,
                         color: Colors.white,
                         ),
