@@ -1,4 +1,13 @@
 # Created by https://www.gitignore.io/api/dart,swift,xcode,android,intellij,cocoapods,objective-c,androidstudio
+#
+ios/
+android/
+test/
+build/
+markdown-navigator-enh.xml
+markdown-navigator.xml
+*.iml
+.dart_tool/
 
 ### Android ###
 # Built application files

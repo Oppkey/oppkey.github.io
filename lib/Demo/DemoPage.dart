@@ -32,14 +32,6 @@ class DemoPage extends StatelessWidget {
                       ),
                     ),
                   ),
-                  Align(
-                    alignment: Alignment.centerLeft,
-                    child: Container(
-                      child: Text("Software and services that can help you reach your goals.",
-                        style: TextStyle(fontSize: 32.0, color: Colors.white),
-                      ),
-                    ),
-                  ),
                 ],
               ),
             ),
