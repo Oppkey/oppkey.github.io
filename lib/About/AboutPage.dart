@@ -45,7 +45,7 @@ class AboutPage extends StatelessWidget {
                   child: Column(
                     children: <Widget>[
                       Icon(
-                        Icons.face,
+                        Icons.nature_people,
                         size: 128,
                         color: Colors.white,
                         ),

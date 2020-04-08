@@ -3,165 +3,171 @@
   "packages": [
     {
       "name": "archive",
-      "rootUri": "file:///home/craig/opt/flutter_linux_v1.7.8+hotfix.4-stable/flutter/.pub-cache/hosted/pub.dartlang.org/archive-2.0.13",
+      "rootUri": "file:///C:/Users/jcasman/Desktop/flutter/flutter/.pub-cache/hosted/pub.dartlang.org/archive-2.0.11",
       "packageUri": "lib/",
       "languageVersion": "2.0"
     },
     {
       "name": "args",
-      "rootUri": "file:///home/craig/opt/flutter_linux_v1.7.8+hotfix.4-stable/flutter/.pub-cache/hosted/pub.dartlang.org/args-1.6.0",
-      "packageUri": "lib/",
-      "languageVersion": "2.3"
-    },
-    {
-      "name": "async",
-      "rootUri": "file:///home/craig/opt/flutter_linux_v1.7.8+hotfix.4-stable/flutter/.pub-cache/hosted/pub.dartlang.org/async-2.4.1",
-      "packageUri": "lib/",
-      "languageVersion": "2.2"
-    },
-    {
-      "name": "boolean_selector",
-      "rootUri": "file:///home/craig/opt/flutter_linux_v1.7.8+hotfix.4-stable/flutter/.pub-cache/hosted/pub.dartlang.org/boolean_selector-2.0.0",
-      "packageUri": "lib/",
-      "languageVersion": "2.4"
-    },
-    {
-      "name": "charcode",
-      "rootUri": "file:///home/craig/opt/flutter_linux_v1.7.8+hotfix.4-stable/flutter/.pub-cache/hosted/pub.dartlang.org/charcode-1.1.3",
+      "rootUri": "file:///C:/Users/jcasman/Desktop/flutter/flutter/.pub-cache/hosted/pub.dartlang.org/args-1.5.2",
       "packageUri": "lib/",
       "languageVersion": "2.0"
     },
     {
+      "name": "async",
+      "rootUri": "file:///C:/Users/jcasman/Desktop/flutter/flutter/.pub-cache/hosted/pub.dartlang.org/async-2.4.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.0"
+    },
+    {
+      "name": "boolean_selector",
+      "rootUri": "file:///C:/Users/jcasman/Desktop/flutter/flutter/.pub-cache/hosted/pub.dartlang.org/boolean_selector-1.0.5",
+      "packageUri": "lib/",
+      "languageVersion": "2.0"
+    },
+    {
+      "name": "charcode",
+      "rootUri": "file:///C:/Users/jcasman/Desktop/flutter/flutter/.pub-cache/hosted/pub.dartlang.org/charcode-1.1.2",
+      "packageUri": "lib/",
+      "languageVersion": "1.0"
+    },
+    {
       "name": "collection",
-      "rootUri": "file:///home/craig/opt/flutter_linux_v1.7.8+hotfix.4-stable/flutter/.pub-cache/hosted/pub.dartlang.org/collection-1.14.12",
+      "rootUri": "file:///C:/Users/jcasman/Desktop/flutter/flutter/.pub-cache/hosted/pub.dartlang.org/collection-1.14.11",
       "packageUri": "lib/",
       "languageVersion": "2.0"
     },
     {
       "name": "convert",
-      "rootUri": "file:///home/craig/opt/flutter_linux_v1.7.8+hotfix.4-stable/flutter/.pub-cache/hosted/pub.dartlang.org/convert-2.1.1",
+      "rootUri": "file:///C:/Users/jcasman/Desktop/flutter/flutter/.pub-cache/hosted/pub.dartlang.org/convert-2.1.1",
       "packageUri": "lib/",
       "languageVersion": "1.17"
     },
     {
       "name": "crypto",
-      "rootUri": "file:///home/craig/opt/flutter_linux_v1.7.8+hotfix.4-stable/flutter/.pub-cache/hosted/pub.dartlang.org/crypto-2.1.4",
+      "rootUri": "file:///C:/Users/jcasman/Desktop/flutter/flutter/.pub-cache/hosted/pub.dartlang.org/crypto-2.1.3",
       "packageUri": "lib/",
       "languageVersion": "2.1"
     },
     {
       "name": "cupertino_icons",
-      "rootUri": "file:///home/craig/opt/flutter_linux_v1.7.8+hotfix.4-stable/flutter/.pub-cache/hosted/pub.dartlang.org/cupertino_icons-0.1.3",
+      "rootUri": "file:///C:/Users/jcasman/Desktop/flutter/flutter/.pub-cache/hosted/pub.dartlang.org/cupertino_icons-0.1.3",
       "packageUri": "lib/",
       "languageVersion": "2.0"
     },
     {
       "name": "flutter",
-      "rootUri": "file:///home/craig/opt/flutter_linux_v1.7.8+hotfix.4-stable/flutter/packages/flutter",
+      "rootUri": "file:///C:/Users/jcasman/Desktop/flutter/flutter/packages/flutter",
       "packageUri": "lib/",
       "languageVersion": "2.2"
     },
     {
       "name": "flutter_test",
-      "rootUri": "file:///home/craig/opt/flutter_linux_v1.7.8+hotfix.4-stable/flutter/packages/flutter_test",
+      "rootUri": "file:///C:/Users/jcasman/Desktop/flutter/flutter/packages/flutter_test",
       "packageUri": "lib/",
       "languageVersion": "2.2"
     },
     {
+      "name": "font_awesome_flutter",
+      "rootUri": "file:///C:/Users/jcasman/Desktop/flutter/flutter/.pub-cache/hosted/pub.dartlang.org/font_awesome_flutter-8.8.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.0"
+    },
+    {
       "name": "image",
-      "rootUri": "file:///home/craig/opt/flutter_linux_v1.7.8+hotfix.4-stable/flutter/.pub-cache/hosted/pub.dartlang.org/image-2.1.12",
+      "rootUri": "file:///C:/Users/jcasman/Desktop/flutter/flutter/.pub-cache/hosted/pub.dartlang.org/image-2.1.4",
       "packageUri": "lib/",
       "languageVersion": "2.0"
     },
     {
       "name": "matcher",
-      "rootUri": "file:///home/craig/opt/flutter_linux_v1.7.8+hotfix.4-stable/flutter/.pub-cache/hosted/pub.dartlang.org/matcher-0.12.6",
+      "rootUri": "file:///C:/Users/jcasman/Desktop/flutter/flutter/.pub-cache/hosted/pub.dartlang.org/matcher-0.12.6",
       "packageUri": "lib/",
       "languageVersion": "2.2"
     },
     {
       "name": "meta",
-      "rootUri": "file:///home/craig/opt/flutter_linux_v1.7.8+hotfix.4-stable/flutter/.pub-cache/hosted/pub.dartlang.org/meta-1.1.8",
+      "rootUri": "file:///C:/Users/jcasman/Desktop/flutter/flutter/.pub-cache/hosted/pub.dartlang.org/meta-1.1.8",
       "packageUri": "lib/",
       "languageVersion": "1.12"
     },
     {
       "name": "path",
-      "rootUri": "file:///home/craig/opt/flutter_linux_v1.7.8+hotfix.4-stable/flutter/.pub-cache/hosted/pub.dartlang.org/path-1.6.4",
+      "rootUri": "file:///C:/Users/jcasman/Desktop/flutter/flutter/.pub-cache/hosted/pub.dartlang.org/path-1.6.4",
       "packageUri": "lib/",
       "languageVersion": "2.0"
     },
     {
       "name": "petitparser",
-      "rootUri": "file:///home/craig/opt/flutter_linux_v1.7.8+hotfix.4-stable/flutter/.pub-cache/hosted/pub.dartlang.org/petitparser-2.4.0",
+      "rootUri": "file:///C:/Users/jcasman/Desktop/flutter/flutter/.pub-cache/hosted/pub.dartlang.org/petitparser-2.4.0",
       "packageUri": "lib/",
       "languageVersion": "2.4"
     },
     {
       "name": "quiver",
-      "rootUri": "file:///home/craig/opt/flutter_linux_v1.7.8+hotfix.4-stable/flutter/.pub-cache/hosted/pub.dartlang.org/quiver-2.1.3",
+      "rootUri": "file:///C:/Users/jcasman/Desktop/flutter/flutter/.pub-cache/hosted/pub.dartlang.org/quiver-2.0.5",
       "packageUri": "lib/",
       "languageVersion": "2.0"
     },
     {
       "name": "sky_engine",
-      "rootUri": "file:///home/craig/opt/flutter_linux_v1.7.8+hotfix.4-stable/flutter/bin/cache/pkg/sky_engine",
+      "rootUri": "file:///C:/Users/jcasman/Desktop/flutter/flutter/bin/cache/pkg/sky_engine",
       "packageUri": "lib/",
       "languageVersion": "1.11"
     },
     {
       "name": "source_span",
-      "rootUri": "file:///home/craig/opt/flutter_linux_v1.7.8+hotfix.4-stable/flutter/.pub-cache/hosted/pub.dartlang.org/source_span-1.7.0",
+      "rootUri": "file:///C:/Users/jcasman/Desktop/flutter/flutter/.pub-cache/hosted/pub.dartlang.org/source_span-1.5.5",
       "packageUri": "lib/",
-      "languageVersion": "2.6"
+      "languageVersion": "1.8"
     },
     {
       "name": "stack_trace",
-      "rootUri": "file:///home/craig/opt/flutter_linux_v1.7.8+hotfix.4-stable/flutter/.pub-cache/hosted/pub.dartlang.org/stack_trace-1.9.3",
+      "rootUri": "file:///C:/Users/jcasman/Desktop/flutter/flutter/.pub-cache/hosted/pub.dartlang.org/stack_trace-1.9.3",
       "packageUri": "lib/",
       "languageVersion": "1.23"
     },
     {
       "name": "stream_channel",
-      "rootUri": "file:///home/craig/opt/flutter_linux_v1.7.8+hotfix.4-stable/flutter/.pub-cache/hosted/pub.dartlang.org/stream_channel-2.0.0",
+      "rootUri": "file:///C:/Users/jcasman/Desktop/flutter/flutter/.pub-cache/hosted/pub.dartlang.org/stream_channel-2.0.0",
       "packageUri": "lib/",
       "languageVersion": "2.0"
     },
     {
       "name": "string_scanner",
-      "rootUri": "file:///home/craig/opt/flutter_linux_v1.7.8+hotfix.4-stable/flutter/.pub-cache/hosted/pub.dartlang.org/string_scanner-1.0.5",
+      "rootUri": "file:///C:/Users/jcasman/Desktop/flutter/flutter/.pub-cache/hosted/pub.dartlang.org/string_scanner-1.0.5",
       "packageUri": "lib/",
       "languageVersion": "2.0"
     },
     {
       "name": "term_glyph",
-      "rootUri": "file:///home/craig/opt/flutter_linux_v1.7.8+hotfix.4-stable/flutter/.pub-cache/hosted/pub.dartlang.org/term_glyph-1.1.0",
+      "rootUri": "file:///C:/Users/jcasman/Desktop/flutter/flutter/.pub-cache/hosted/pub.dartlang.org/term_glyph-1.1.0",
       "packageUri": "lib/",
       "languageVersion": "1.8"
     },
     {
       "name": "test_api",
-      "rootUri": "file:///home/craig/opt/flutter_linux_v1.7.8+hotfix.4-stable/flutter/.pub-cache/hosted/pub.dartlang.org/test_api-0.2.15",
+      "rootUri": "file:///C:/Users/jcasman/Desktop/flutter/flutter/.pub-cache/hosted/pub.dartlang.org/test_api-0.2.15",
       "packageUri": "lib/",
       "languageVersion": "2.4"
     },
     {
       "name": "typed_data",
-      "rootUri": "file:///home/craig/opt/flutter_linux_v1.7.8+hotfix.4-stable/flutter/.pub-cache/hosted/pub.dartlang.org/typed_data-1.1.6",
+      "rootUri": "file:///C:/Users/jcasman/Desktop/flutter/flutter/.pub-cache/hosted/pub.dartlang.org/typed_data-1.1.6",
       "packageUri": "lib/",
       "languageVersion": "2.0"
     },
     {
       "name": "vector_math",
-      "rootUri": "file:///home/craig/opt/flutter_linux_v1.7.8+hotfix.4-stable/flutter/.pub-cache/hosted/pub.dartlang.org/vector_math-2.0.8",
+      "rootUri": "file:///C:/Users/jcasman/Desktop/flutter/flutter/.pub-cache/hosted/pub.dartlang.org/vector_math-2.0.8",
       "packageUri": "lib/",
       "languageVersion": "2.0"
     },
     {
       "name": "xml",
-      "rootUri": "file:///home/craig/opt/flutter_linux_v1.7.8+hotfix.4-stable/flutter/.pub-cache/hosted/pub.dartlang.org/xml-3.6.1",
+      "rootUri": "file:///C:/Users/jcasman/Desktop/flutter/flutter/.pub-cache/hosted/pub.dartlang.org/xml-3.5.0",
       "packageUri": "lib/",
-      "languageVersion": "2.6"
+      "languageVersion": "2.3"
     },
     {
       "name": "oppkey",
@@ -170,7 +176,7 @@
       "languageVersion": "2.1"
     }
   ],
-  "generated": "2020-04-08T02:14:46.899941Z",
+  "generated": "2020-04-08T20:12:01.621780Z",
   "generator": "pub",
-  "generatorVersion": "2.8.0-dev.20.0.flutter-1210d27678"
+  "generatorVersion": "2.8.0-dev.12.0.flutter-9983424a3c"
 }
