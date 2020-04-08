@@ -84,7 +84,7 @@ class ProductPage extends StatelessWidget {
       Padding(
         padding: const EdgeInsets.symmetric(vertical: 20.0),
         child: Image.asset(
-          "assets/images/target.png",
+          "assets/images/human.jpg",
           width: width,
         ),
       ),
