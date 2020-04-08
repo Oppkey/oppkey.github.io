@@ -89,8 +89,7 @@ class AboutPage extends StatelessWidget {
                       ),
                     ],
                   ),
-                ), 
-
+                ),
           ],
         ),
       ),
