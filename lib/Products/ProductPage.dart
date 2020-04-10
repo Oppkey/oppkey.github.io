@@ -26,7 +26,7 @@ class ProductPage extends StatelessWidget {
               child: Column(
                 children: <Widget>[
                   Text(
-                    "Software for marketing campaigns. Scalable community promotion and management.",
+                    "Software for scalable community promotion and management. Services to drive smart marketing campaigns.",
                     style: TextStyle(fontSize: 32.0, color: Colors.white),
                   ),
                 ],
