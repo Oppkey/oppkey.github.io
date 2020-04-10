@@ -47,7 +47,7 @@ class CaseStudiesPage extends StatelessWidget {
               child: Column(
                 children: <Widget>[
                   Icon(
-                    Icons.account_box,
+                    Icons.bubble_chart,
                     size: 128,
                     color: Colors.white,
                   ),
