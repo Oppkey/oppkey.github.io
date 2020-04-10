@@ -23,7 +23,7 @@ class LandingPage extends StatelessWidget {
                 "thought leaders by working with " 
                 "your employees, customers, partners, and evangelists using our scalable platform.",
                 style: TextStyle(
-                  fontSize: 16.0,
+                  fontSize: 20.0,
                   color: Colors.white
                 ),),
               ),
