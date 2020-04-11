@@ -42,8 +42,8 @@ class ProductPage extends StatelessWidget {
               },
               child: Column(
                 children: <Widget>[
-                  Icon(
-                    Icons.blur_circular,
+                  FaIcon(
+                    FontAwesomeIcons.seedling,
                     size: 128,
                     color: Colors.white,
                   ),
