@@ -76,7 +76,7 @@ class AboutPage extends StatelessWidget {
                  },                                  
                   child: Column(
                     children: <Widget>[
-                      Icon(
+                      FaIcon(
                         FontAwesomeIcons.rocket,
                         size: 128,
                         color: Colors.white,
