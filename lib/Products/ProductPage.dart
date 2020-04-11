@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:oppkey/Demo/Demo.dart';
 import 'dart:html' as html;
 import 'dart:js' as js;
-
+import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
 
 class ProductPage extends StatelessWidget {
@@ -42,9 +42,11 @@ class ProductPage extends StatelessWidget {
               },
               child: Column(
                 children: <Widget>[
-
-                  Image.asset('assets/images/product.png',
-                  width: 100,),
+                  Icon(
+                    Icons.blur_circular,
+                    size: 128,
+                    color: Colors.white,
+                  ),
                   Text('Products',
 
                     style: TextStyle(
@@ -64,8 +66,11 @@ class ProductPage extends StatelessWidget {
               },
               child: Column(
                 children: <Widget>[
-                  Image.asset('assets/images/flower.png',
-                  width: 100,),
+                  Icon(
+                    Icons.blur_on,
+                    size: 128,
+                    color: Colors.white,
+                  ),
                   Text('Services',
 
                     style: TextStyle(
