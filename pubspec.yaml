@@ -49,11 +49,16 @@ flutter:
     - assets/images/send.png
     - assets/images/hero.png    
     - assets/images/demo.png
+    - assets/images/demos.jpg
+    - assets/images/products.jpg
+    - assets/images/casestudies.jpg
     - assets/images/main/hands.png
+    - assets/images/main/home.jpg
     - assets/images/captain.png
     - assets/images/about/urban.jpg
     - assets/images/machine.jpg
     - assets/images/wave.jpg
+    - assets/images/about/about.jpg
 
 
     # - images/a_dot_ham.jpeg

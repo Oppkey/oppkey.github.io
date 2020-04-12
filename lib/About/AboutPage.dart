@@ -97,7 +97,7 @@ class AboutPage extends StatelessWidget {
             Padding(
         padding: const EdgeInsets.symmetric(vertical: 20.0),
         child: Image.asset(
-          "assets/images/about/urban.jpg",
+          "assets/images/about/about.jpg",
           width: width,
         ),
       ),
