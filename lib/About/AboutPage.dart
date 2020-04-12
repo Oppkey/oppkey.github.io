@@ -77,11 +77,11 @@ class AboutPage extends StatelessWidget {
                   child: Column(
                     children: <Widget>[
                       FaIcon(
-                        FontAwesomeIcons.comments,
+                        FontAwesomeIcons.brain,
                         size: 64,
                         color: Colors.white,
                         ),
-                      Text('More',
+                      Text('Policy',
                       
                         style: TextStyle(
                           fontSize: 32,
