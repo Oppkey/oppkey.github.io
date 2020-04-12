@@ -28,7 +28,7 @@ class DemoPage extends StatelessWidget {
                     child: Container(
                       child: Text(
                         "Helping businesses solve new marketing problems.",
-                        style: TextStyle(fontSize: 32.0, color: Colors.white),
+                        style: TextStyle(fontSize: 20.0, color: Colors.white),
                       ),
                     ),
                   ),

@@ -29,7 +29,7 @@ class CaseStudiesPage extends StatelessWidget {
                     child: Container(
                       child: Text(
                     "Stories of heroic results. Increase registrations. Increase traffic.",
-                    style: TextStyle(fontSize: 32.0, color: Colors.white),
+                    style: TextStyle(fontSize: 20.0, color: Colors.white),
                   ),
                 ),
               ),
