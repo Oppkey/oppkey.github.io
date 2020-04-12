@@ -48,7 +48,7 @@ class CaseStudiesPage extends StatelessWidget {
                 children: <Widget>[
                   Icon(
                     Icons.bubble_chart,
-                    size: 128,
+                    size: 64,
                     color: Colors.white,
                   ),
                   Text('Case Studies',

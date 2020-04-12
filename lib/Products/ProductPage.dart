@@ -44,7 +44,7 @@ class ProductPage extends StatelessWidget {
                 children: <Widget>[
                   Icon(
                     Icons.blur_circular,
-                    size: 128,
+                    size: 64,
                     color: Colors.white,
                   ),
                   Text('Products',
@@ -68,7 +68,7 @@ class ProductPage extends StatelessWidget {
                 children: <Widget>[
                   Icon(
                     Icons.blur_on,
-                    size: 128,
+                    size: 64,
                     color: Colors.white,
                   ),
                   Text('Services',

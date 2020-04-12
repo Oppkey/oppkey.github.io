@@ -45,8 +45,8 @@ class AboutPage extends StatelessWidget {
                   child: Column(
                     children: <Widget>[
                       Icon(
-                        Icons.nature_people,
-                        size: 128,
+                        Icons.people,
+                        size: 64,
                         color: Colors.white,
                         ),
                       Text('People',
@@ -77,8 +77,8 @@ class AboutPage extends StatelessWidget {
                   child: Column(
                     children: <Widget>[
                       FaIcon(
-                        FontAwesomeIcons.rocket,
-                        size: 128,
+                        FontAwesomeIcons.comments,
+                        size: 64,
                         color: Colors.white,
                         ),
                       Text('More',
