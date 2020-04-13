@@ -27,7 +27,7 @@ class DemoPage extends StatelessWidget {
                     alignment: Alignment.centerLeft,
                     child: Container(
                       child: Text(
-                        "Helping businesses solve new marketing problems.",
+                        "Change the way you do marketing. Get better results. Start building a strong community now. We have the tools and services you need to start from scratch or to build up an existing community. Get started today!",
                         style: TextStyle(fontSize: 20.0, color: Colors.white),
                       ),
                     ),
@@ -35,7 +35,7 @@ class DemoPage extends StatelessWidget {
                 ],
               ),
             ),
-            Text('info@oppkey.com',
+            Text('info@oppkey.com or 415-730-2793',
             style: TextStyle(color: Colors.white, fontSize: 20)),
 
           ],

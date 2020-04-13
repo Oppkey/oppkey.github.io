@@ -28,7 +28,7 @@ class CaseStudiesPage extends StatelessWidget {
                     alignment: Alignment.centerLeft,
                     child: Container(
                       child: Text(
-                    "Stories of heroic results. Increase registrations. Increase traffic.",
+                    "Stories of heroic results. Build strong communities. Increase registrations. Increase traffic.",
                     style: TextStyle(fontSize: 20.0, color: Colors.white),
                   ),
                 ),
