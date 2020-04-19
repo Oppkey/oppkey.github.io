@@ -67,30 +67,7 @@ class AboutPage extends StatelessWidget {
 
 
                 // learn more
-                InkWell(
-                  onTap: () {
-                    String externalUrl =
-                      'https://brain.oppkey.com/content/info/';
 
-                    js.context.callMethod("open", [externalUrl]);
-                 },                                  
-                  child: Column(
-                    children: <Widget>[
-                      FaIcon(
-                        FontAwesomeIcons.brain,
-                        size: 64,
-                        color: Colors.white,
-                        ),
-                      Text('Policy',
-                      
-                        style: TextStyle(
-                          fontSize: 32,
-                          color: Colors.white,
-                        ),
-                      ),
-                    ],
-                  ),
-                ),
           ],
         ),
       ),
