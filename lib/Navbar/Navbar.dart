@@ -3,6 +3,7 @@ import 'package:oppkey/Products/Products.dart';
 import 'package:oppkey/About/About.dart';
 import 'package:oppkey/CaseStudies/CaseStudies.dart';
 import 'package:oppkey/Navbar/GoBack/GoBack.dart';
+import '../jobs/jobs.dart';
 
 class Navbar extends StatelessWidget {
   @override
@@ -29,135 +30,176 @@ class DesktopNavbar extends StatelessWidget {
         child: Row(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: <Widget>[
-          Text("Oppkey",
-            style: TextStyle(
-              fontWeight: FontWeight.bold,
-              color: Colors.white,
-              fontSize: 50
+            Text(
+              "Oppkey",
+              style: TextStyle(
+                  fontWeight: FontWeight.bold,
+                  color: Colors.white,
+                  fontSize: 50),
             ),
-          ),
-          Row(children: <Widget>[
-            // GoBack(),
-            // SizedBox(width: 30,),
+            Row(
+              children: <Widget>[
+                // GoBack(),
+                // SizedBox(width: 30,),
 
-            // About
-            FlatButton(
-              onPressed: () {
-                Navigator.push(
-                  context,
-                  MaterialPageRoute(builder: (context) => About()),
-                );                
-              },
-              child: Text("About", 
-              style: TextStyle(color: Colors.white),
-              ),
-              focusColor: Color(0xffF04D22),
-            ),
-            SizedBox(width: 30,),
+                // About
+                FlatButton(
+                  onPressed: () {
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(builder: (context) => About()),
+                    );
+                  },
+                  child: Text(
+                    "About",
+                    style: TextStyle(color: Colors.white),
+                  ),
+                  focusColor: Color(0xffF04D22),
+                ),
+                SizedBox(
+                  width: 30,
+                ),
 
-            // Case Studies
-            FlatButton(
-              onPressed: () {
-                Navigator.push(
-                  context,
-                  MaterialPageRoute(builder: (context) => CaseStudies()),
-                );                
-              },
-              focusColor: Color(0xffF04D22),
-              child: Text("Case Studies", 
-              style: TextStyle(color:Colors.white),
-              ),
-            ),
-            
+                // Case Studies
+                FlatButton(
+                  onPressed: () {
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(builder: (context) => CaseStudies()),
+                    );
+                  },
+                  focusColor: Color(0xffF04D22),
+                  child: Text(
+                    "Case Studies",
+                    style: TextStyle(color: Colors.white),
+                  ),
+                ),
 
-
-
-            SizedBox(width: 30,),
-            FlatButton(
-              onPressed: (){
-                Navigator.push(
-                  context,
-                  MaterialPageRoute(builder: (context) => Products()),
-                );
-              },
-              child: Text("Products",
-              style: TextStyle(color: Colors.white),),
+                SizedBox(
+                  width: 30,
+                ),
+                FlatButton(
+                  onPressed: () {
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(builder: (context) => Products()),
+                    );
+                  },
+                  child: Text(
+                    "Products",
+                    style: TextStyle(color: Colors.white),
+                  ),
+                ),
+                SizedBox(
+                  width: 30,
+                ),
+                // jobs
+                FlatButton(
+                  onPressed: () {
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(builder: (context) => Jobs()),
+                    );
+                  },
+                  child: Text(
+                    "Jobs",
+                    style: TextStyle(color: Colors.white),
+                  ),
+                ),
+              ],
             )
-
-          ],)
-        ],
+          ],
         ),
       ),
     );
   }
 }
 
-
 class MobileNavbar extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: EdgeInsets.symmetric(vertical: 20, horizontal: 40 ),
+      padding: EdgeInsets.symmetric(vertical: 20, horizontal: 40),
       child: Column(
         children: <Widget>[
-          Text("Oppkey",
+          Text(
+            "Oppkey",
             style: TextStyle(
-              fontWeight: FontWeight.bold,
-              color: Colors.white,
-              fontSize: 50
-            ),
+                fontWeight: FontWeight.bold, color: Colors.white, fontSize: 50),
           ),
           Row(
             mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
-
-            // About
-            FlatButton(
-              onPressed: () {
-               Navigator.push(
-                  context,
-                  MaterialPageRoute(builder: (context) => About()),
-                );
-              },
-              child: Text("About", 
-              style: TextStyle(color:Colors.white),
+              // About
+              FlatButton(
+                onPressed: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(builder: (context) => About()),
+                  );
+                },
+                child: Text(
+                  "About",
+                  style: TextStyle(color: Colors.white),
+                ),
+                focusColor: Color(0xffF04D22),
               ),
-              focusColor: Color(0xffF04D22),
-            ),
 
-            // spacing between row elements
-            SizedBox(width: 10,),
-
-            // Case Studies
-            FlatButton(
-              onPressed: () {
-                Navigator.push(
-                  context,
-                  MaterialPageRoute(builder: (context) => CaseStudies()),
-                );
-              },
-              child: Text("Case Studies", 
-              style: TextStyle(color:Colors.white),
+              // spacing between row elements
+              SizedBox(
+                width: 10,
               ),
-              focusColor: Color(0xffF04D22),
-            ),
-            SizedBox(width: 10,),
 
+              // Case Studies
+              FlatButton(
+                onPressed: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(builder: (context) => CaseStudies()),
+                  );
+                },
+                child: Text(
+                  "Case Studies",
+                  style: TextStyle(color: Colors.white),
+                ),
+                focusColor: Color(0xffF04D22),
+              ),
+              SizedBox(
+                width: 10,
+              ),
 
+              // Products
+              FlatButton(
+                onPressed: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(builder: (context) => Products()),
+                  );
+                },
+                child: Text(
+                  "Products",
+                  style: TextStyle(color: Colors.white),
+                ),
+              ),
+              SizedBox(
+                width: 10,
+              ),
 
-            // Products
-            FlatButton(
-              onPressed: (){
-                Navigator.push(
-                  context,
-                  MaterialPageRoute(builder: (context) => Products()),
-                );
-              },
-              child: Text("Products",
-              style: TextStyle(color: Colors.white),),
-            )
-
-          ],),
+              // Jobs
+              FlatButton(
+                onPressed: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(builder: (context) => Jobs()),
+                  );
+                },
+                child: Text(
+                  "Jobs",
+                  style: TextStyle(color: Colors.white),
+                ),
+              ),
+            ],
+          ),
         ],
       ),
     );
