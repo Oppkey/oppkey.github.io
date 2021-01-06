@@ -1,5 +1,7 @@
 import 'package:flutter/widgets.dart';
 import 'package:flutter/material.dart';
+import 'package:easy_web_view/easy_web_view.dart';
+import './technical_marketing_manager.dart';
 
 class JobsPage extends StatelessWidget {
   List<Widget> pageChildren(double width, BuildContext context) {
@@ -22,11 +24,12 @@ class JobsPage extends StatelessWidget {
                 children: <Widget>[
                   Align(
                     alignment: Alignment.centerLeft,
-                    child: Container(
-                      child: Text(
-                        "Technical Marketing Manager - Jan 5, 2020\nContact us for a detailed job description",
-                        style: TextStyle(fontSize: 20.0, color: Colors.white),
-                      ),
+                    child: EasyWebView(
+                      height: 500,
+                      isMarkdown: true,
+                      isHtml: false,
+                      src: jobDescription,
+                      onLoaded: () {},
                     ),
                   ),
                 ],
