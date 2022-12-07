@@ -18,97 +18,96 @@
     <!-- ===============================================-->
     <!--    Favicons-->
     <!-- ===============================================-->
-    <link rel="apple-touch-icon" sizes="180x180" href="../assets/img/favicons/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="../assets/img/favicons/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="../assets/img/favicons/favicon-16x16.png">
-    <link rel="shortcut icon" type="image/x-icon" href="../assets/img/favicons/favicon.ico">
-    <link rel="manifest" href="../assets/img/favicons/manifest.json">
-    <meta name="msapplication-TileImage" content="../assets/img/favicons/mstile-150x150.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../../assets/img/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../../assets/img/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../../assets/img/favicons/favicon-16x16.png">
+    <link rel="shortcut icon" type="image/x-icon" href="../../assets/img/favicons/favicon.ico">
+    <link rel="manifest" href="../../assets/img/favicons/manifest.json">
+    <meta name="msapplication-TileImage" content="../../assets/img/favicons/mstile-150x150.png">
     <meta name="theme-color" content="#ffffff">
 
 
     <!-- ===============================================-->
     <!--    Stylesheets-->
     <!-- ===============================================-->
-    <link href="../vendors/swiper/swiper-bundle.min.css" rel="stylesheet">
-    <link href="../vendors/loaders.css/loaders.min.css" rel="stylesheet" type="text/css">
+    <link href="../../vendors/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <link href="../../vendors/loaders.css/loaders.min.css" rel="stylesheet" type="text/css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css?family=PT+Mono%7cPT+Serif:400,400i%7cLato:100,300,400,700,800,900" rel="stylesheet">
-    <link href="../assets/css/theme.css" rel="stylesheet" />
-    <link href="../assets/css/user.css" rel="stylesheet" />
+    <link href="../../assets/css/theme.css" rel="stylesheet" />
+    <link href="../../assets/css/user.css" rel="stylesheet" />
 
   </head>
 
 
   <body class="overflow-hidden-x">
 
+    <!-- begin nav bar -->
+    <nav class="fancynavbar fancynavbar-expand-lg"
+    data-zanim-lg='{"from":{"opacity":1,"x":70},"to":{"opacity":1,"x":0},"ease":"CubicBezier","duration":0.8,"delay":0.3}'
+    data-zanim-xs='{"from":{"opacity":1,"y":-37},"to":{"opacity":1,"y":0},"ease":"CubicBezier","duration":0.8,"delay":0.3}'
+    data-zanim-trigger="scroll" data-exclusive="true">
+    <div class="fancynavbar-togglerbar bg-black">
+      <a class="fancynavbar-brand" href="index.html"><img class="fancynavbar-brand-img"
+          src="./assets/img/logo/oppkey_logo_grey.png" alt="" width="30" height="30"
+          data-zanim-lg='{"from":{"opacity":0,"x":45},"to":{"opacity":1,"x":0},"ease":"CubicBezier","duration":0.8,"delay":0.4}'
+          data-zanim-trigger="scroll" />
 
-    <nav class="fancynavbar fancynavbar-expand-lg" data-zanim-lg='{"from":{"opacity":1,"x":70},"to":{"opacity":1,"x":0},"ease":"CubicBezier","duration":0.8,"delay":0.3}' data-zanim-xs='{"from":{"opacity":1,"y":-37},"to":{"opacity":1,"y":0},"ease":"CubicBezier","duration":0.8,"delay":0.3}' data-zanim-trigger="scroll" data-exclusive="true">
-      <div class="fancynavbar-togglerbar" data-onscroll-fade-in="data-onscroll-fade-in"><a class="fancynavbar-brand" href="../index.html"><img class="fancynavbar-brand-img" src="../assets/img/logo-sparrow-invert.svg" alt="" width="30" height="30" data-zanim-lg='{"from":{"opacity":0,"x":45},"to":{"opacity":1,"x":0},"ease":"CubicBezier","duration":0.8,"delay":0.4}' data-zanim-trigger="scroll" />
+        <!--You can use icon or text logo as well-->
+        <!--<span class='fab fa-superpowers fs-3'></span>-->
+        <!--<span class='logo-sparrow'>S</span>-->
+      </a>
+      <div class="fancynavbar-toggler">
+        <svg class="fancynavbar-toggler-icon" viewBox="0 0 70 70" xmlns="http://www.w3.org/2000/svg"
+          data-zanim-lg='{"from":{"opacity":0,"x":45},"to":{"opacity":1,"x":0},"ease":"CubicBezier","duration":0.8,"delay":0.5}'
+          data-zanim-trigger="scroll">
+          <path id="path-top" d="M20,25c0,0,22,0,30,0c16,0,18.89,40.71-.15,21.75C38.7,35.65,19.9,16.8,19.9,16.8"></path>
+          <path id="path-middle" d="M20,32h30"></path>
+          <path id="path-bottom" d="M19.9,46.98c0,0,18.8-18.85,29.95-29.95C68.89-1.92,66,38.78,50,38.78c-8,0-30,0-30,0">
+          </path>
+        </svg>
+      </div>
+      <div class="fancynavbar-addon"
+        data-zanim-lg='{"from":{"opacity":1,"x":45},"to":{"opacity":1,"x":0},"ease":"CubicBezier","duration":0.8,"delay":0.4}'
+        data-zanim-trigger="scroll">
+        <a class="fancynavbar-addon-item" href="https://twitter.com/oppkey"><span class="fab fa-twitter"></span></a>
+        <!-- <a
+            class="fancynavbar-addon-item"
+            href="#languageModal"
+            data-bs-toggle="modal"
+            ><span class="font-sans-serif ls fw-black fs--1 d-block"
+              >EN</span
+            ></a> -->
+      </div>
+    </div>
+    <div class="fancynavbar-collapse">
+      <ul class="fancynavbar-nav">
+        <li class="fancynav-item fancy-dropdown">
+          <a class="fancynav-link fancy-dropdown-toggle" href="../company.html">
+            <span class="fancynav-link-content">company</span>
+          </a>
+        </li>
+        <li class="fancynav-item fancy-dropdown">
+          <a class="fancynav-link fancy-dropdown-toggle" href="JavaScript:void(0)"><span
+              class="fancynav-link-content">case studies</span></a>
+          <div class="fancy-dropdown-menu">
+            <div class="row pb-4 pt-3">
+              <div class="col-sm-auto pe-4">
+                <a class="false fancy-dropdown-item" href="ricoh.html">
+                  RICOH</a><a class="false fancy-dropdown-item" href="r_consortium.html">
+                  R Consortium</a>
+                <a class="false fancy-dropdown-item" href="open_js.html">
+                  OpenJS Foundation</a>
+                  <a class="false fancy-dropdown-item" href="theta360.html">theta360
+                    </a>                  
+              </div>
+            </div>
+          </div>
+        </li>
 
-          <!--You can use icon or text logo as well-->
-          <!--<span class='fab fa-superpowers fs-3'></span>-->
-          <!--<span class='logo-sparrow'>S</span>-->
-        </a>
-        <div class="fancynavbar-toggler">
-          <svg class="fancynavbar-toggler-icon" viewBox="0 0 70 70" xmlns="http://www.w3.org/2000/svg" data-zanim-lg='{"from":{"opacity":0,"x":45},"to":{"opacity":1,"x":0},"ease":"CubicBezier","duration":0.8,"delay":0.5}' data-zanim-trigger="scroll">
-            <path id="path-top" d="M20,25c0,0,22,0,30,0c16,0,18.89,40.71-.15,21.75C38.7,35.65,19.9,16.8,19.9,16.8"></path>
-            <path id="path-middle" d="M20,32h30"></path>
-            <path id="path-bottom" d="M19.9,46.98c0,0,18.8-18.85,29.95-29.95C68.89-1.92,66,38.78,50,38.78c-8,0-30,0-30,0"></path>
-          </svg>
-        </div>
-        <div class="fancynavbar-addon" data-zanim-lg='{"from":{"opacity":1,"x":45},"to":{"opacity":1,"x":0},"ease":"CubicBezier","duration":0.8,"delay":0.4}' data-zanim-trigger="scroll"><a class="fancynavbar-addon-item" href="#!"><span class="fab fa-twitter"></span></a><a class="fancynavbar-addon-item" href="#languageModal" data-bs-toggle="modal"><span class="font-sans-serif ls fw-black fs--1 d-block">EN</span></a>
-        </div>
-      </div>
-      <div class="fancynavbar-collapse">
-        <ul class="fancynavbar-nav">
-          <li class="fancynav-item fancy-dropdown"><a class="fancynav-link fancy-dropdown-toggle" href="JavaScript:void(0)"><span class="fancynav-link-content">homes</span></a>
-            <div class="fancy-dropdown-menu">
-              <div class="row pb-4 pt-3">
-                <div class="col-auto"><a class=" false fancy-dropdown-item" href="../homes/default.html"> Default</a><a class=" false fancy-dropdown-item" href="../homes/bicycle.html"> Bicycle</a><a class=" false fancy-dropdown-item" href="../homes/bigcartel.html"> Bigcartel</a><a class=" false fancy-dropdown-item" href="../homes/cafe.html"> Cafe</a><a class=" false fancy-dropdown-item" href="../homes/digital.html"> Digital</a><a class=" false fancy-dropdown-item" href="../homes/ecommerce.html"> Ecommerce</a><a class=" false fancy-dropdown-item" href="../homes/event.html"> Event</a><a class=" false fancy-dropdown-item" href="../homes/interior.html"> Interior</a><a class=" false fancy-dropdown-item" href="../homes/landing.html"> Landing</a><a class=" false fancy-dropdown-item" href="../homes/promotion.html"> Promotion</a><a class=" false fancy-dropdown-item" href="../homes/software.html"> Software</a><a class=" false fancy-dropdown-item" href="../homes/studio.html"> Studio</a>
-                </div>
-              </div>
-            </div>
-          </li>
-          <li class="fancynav-item fancy-dropdown"><a class="fancynav-link fancy-dropdown-toggle" href="JavaScript:void(0)"><span class="fancynav-link-content">pages</span></a>
-            <div class="fancy-dropdown-menu">
-              <div class="row pb-4 pt-3">
-                <div class="col-sm-auto pe-4"><a class=" false fancy-dropdown-item" href="../pages/404.html"> 404</a><a class=" false fancy-dropdown-item" href="../pages/company.html"> About</a><a class=" false fancy-dropdown-item" href="../pages/blog.html"> Blog</a><a class=" false fancy-dropdown-item" href="../pages/blog-single.html"> Blog single</a><a class=" false fancy-dropdown-item" href="../pages/cart.html"> Cart</a><a class=" false fancy-dropdown-item" href="../pages/casestudy.html"> Casestudy</a><a class=" false fancy-dropdown-item" href="../pages/coming-soon.html"> Coming soon</a><a class=" false fancy-dropdown-item" href="../pages/contact.html"> Contact</a><a class=" false fancy-dropdown-item" href="../pages/one-page.html"> One page</a><a class=" false fancy-dropdown-item" href="../pages/portfolio.html"> Portfolio</a>
-                </div>
-                <div class="col-sm-auto pe-4"><a class=" false fancy-dropdown-item" href="../pages/profile.html"> Profile</a><a class=" false fancy-dropdown-item" href="../pages/rtl.html"> RTL</a><a class=" false fancy-dropdown-item" href="../pages/services.html"> Services</a><a class=" false fancy-dropdown-item" href="../pages/shop.html"> Shop</a><a class=" false fancy-dropdown-item" href="../pages/signin.html"> Signin</a><a class=" false fancy-dropdown-item" href="../pages/signup.html"> Signup</a><a class=" false fancy-dropdown-item" href="../pages/product-single.html"> Product single</a><a class=" false fancy-dropdown-item" href="../pages/split-static.html"> Split static</a><a class=" false fancy-dropdown-item" href="../pages/split-youtube.html"> Split youtube</a><a class=" false fancy-dropdown-item" href="../pages/starter.html"> Starter</a>
-                </div>
-              </div>
-            </div>
-          </li>
-          <li class="fancynav-item fancy-dropdown"><a class="fancynav-link fancy-dropdown-toggle" href="JavaScript:void(0)"><span class="fancynav-link-content">components</span></a>
-            <div class="fancy-dropdown-menu">
-              <div class="row pb-2 pt-3">
-                <div class="col-sm-auto mb-3">
-                  <div class="row">
-                    <div class="col-sm-auto pe-4"><a class="fancy-dropdown-item text-white fw-black ls text-uppercase fs--1 mb-1" href="JavaScript:void(0)">Sparrow</a><a class=" false fancy-dropdown-item" href="../components/sparrow/accordion.html"> Accordion</a><a class=" false fancy-dropdown-item" href="../components/sparrow/anchor.html"> Anchor</a><a class=" false fancy-dropdown-item" href="../components/sparrow/backgrounds.html"> Backgrounds</a><a class=" false fancy-dropdown-item" href="../components/sparrow/borders.html"> Borders</a><a class=" false fancy-dropdown-item" href="../components/sparrow/carousel.html"> Carousel</a><a class=" false fancy-dropdown-item" href="../components/sparrow/colors.html"> Colors</a><a class=" false fancy-dropdown-item" href="../components/sparrow/cookie-notice.html"> Cookie notice</a><a class=" false fancy-dropdown-item" href="../components/sparrow/countdown.html"> Countdown</a><a class=" false fancy-dropdown-item" href="../components/sparrow/countup.html"> Countup</a><a class=" false fancy-dropdown-item" href="../components/sparrow/fancynav.html"> Fancynav</a><a class=" false fancy-dropdown-item" href="../components/sparrow/filter.html"> Filter</a>
-                    </div>
-                    <div class="col-sm-auto pe-4"><a class=" false fancy-dropdown-item" href="../components/sparrow/googlemap.html"> Googlemap</a><a class=" false fancy-dropdown-item" href="../components/sparrow/icons.html"> Icons</a><a class=" false fancy-dropdown-item" href="../components/sparrow/inline-player.html"> Inline player</a><a class=" false fancy-dropdown-item" href="../components/sparrow/lightbox.html"> Lightbox</a><a class=" false fancy-dropdown-item" href="../components/sparrow/masonry.html"> Masonry</a><a class=" false fancy-dropdown-item" href="../components/sparrow/parallax.html"> Parallax</a><a class=" false fancy-dropdown-item" href="../components/sparrow/progressbar.html"> Progressbar</a><a class=" false fancy-dropdown-item" href="../components/sparrow/spacing.html"> Spacing</a><a class=" false fancy-dropdown-item" href="../components/sparrow/typed-text.html"> Typed text</a><a class=" false fancy-dropdown-item" href="../components/sparrow/typography.html"> Typography</a><a class=" false fancy-dropdown-item" href="../components/sparrow/zanimation.html"> Zanimation</a>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-sm-auto pe-3 mb-3"><a class="fancy-dropdown-item text-white fw-black ls text-uppercase fs--1 mb-1" href="JavaScript:void(0)">Bootstrap</a><a class=" false fancy-dropdown-item" href="../components/bootstrap/badges.html"> Badges</a><a class=" false fancy-dropdown-item" href="../components/bootstrap/buttons.html"> Buttons</a><a class=" false fancy-dropdown-item" href="../components/bootstrap/cards.html"> Cards</a><a class=" false fancy-dropdown-item" href="../components/bootstrap/forms.html"> Forms</a><a class=" false fancy-dropdown-item" href="../components/bootstrap/modals.html"> Modals</a><a class=" false fancy-dropdown-item" href="../components/bootstrap/navbar.html"> Navbar</a><a class=" false fancy-dropdown-item" href="../components/bootstrap/scrollspy.html"> Scrollspy</a><a class=" false fancy-dropdown-item" href="../components/bootstrap/sizing.html"> Sizing</a><a class=" false fancy-dropdown-item" href="../components/bootstrap/tables.html"> Tables</a><a class=" false fancy-dropdown-item" href="../components/bootstrap/tabs.html"> Tabs</a><a class=" false fancy-dropdown-item" href="../components/bootstrap/tooltips.html"> Tooltips</a>
-                </div>
-              </div>
-            </div>
-          </li>
-          <li class="fancynav-item fancy-dropdown"><a class="fancynav-link fancy-dropdown-toggle" href="JavaScript:void(0)"><span class="fancynav-link-content">documentation</span></a>
-            <div class="fancy-dropdown-menu">
-              <div class="row pb-4 pt-3">
-                <div class="col-auto"><a class=" false fancy-dropdown-item" href="../documentation/getting-started.html"> Getting started</a><a class=" false fancy-dropdown-item" href="../documentation/file-structure.html"> File structure</a><a class=" false fancy-dropdown-item" href="../documentation/customization.html"> Customization</a><a class=" false fancy-dropdown-item" href="../documentation/gulp.html"> Gulp</a><a class=" false fancy-dropdown-item" href="../documentation/rtl.html"> RTL</a><a class=" false fancy-dropdown-item" href="../documentation/plugins.html"> Plugins</a><a class=" false fancy-dropdown-item" href="../documentation/changelog.html"> Changelog</a>
-                </div>
-              </div>
-            </div>
-          </li>
-          <li class="fancynav-item"><a class="fancynav-link" href="../pages/portfolio.html"><span class="fancynav-link-content">portfolio</span></a></li>
-          <li class="fancynav-item"><a class="fancynav-link" href="../pages/contact.html"><span class="fancynav-link-content">contact</span></a></li>
-        </ul>
-      </div>
-    </nav>
+      </ul>
+    </div>
+  </nav>
 
 
 
@@ -144,9 +143,9 @@
             <div class="col-lg-6 px-0">
               <div class="swiper-container theme-slider swiper-theme sticky-top vh-50 vh-lg-100" data-zanim-lg='{"animation":"zoom-out-slide-right","delay":0.4}' data-zanim-trigger="scroll" data-swiper='{"autoplay":{"delay":5000,"disableOnInteraction":false},"loop":true,"effect":"fade","pagination":{"el":".swiper-pagination","clickable":true,"type":"bullets"}}'>
                 <div class="swiper-wrapper">
-                  <div class="swiper-slide min-vh-lg-100"><img class="fit-cover vh-lg-100 w-100" src="../assets/img/portfolio-01.jpg" alt="" /></div>
-                  <div class="swiper-slide min-vh-lg-100"> <img class="fit-cover vh-lg-100 w-100" src="../assets/img/portfolio-02.jpg" alt="" /></div>
-                  <div class="swiper-slide min-vh-lg-100"> <img class="fit-cover vh-lg-100 w-100" src="../assets/img/portfolio-03.jpg" alt="" /></div>
+                  <div class="swiper-slide min-vh-lg-100"><img class="fit-cover vh-lg-100 w-100" src="../../assets/img/portfolio-01.jpg" alt="" /></div>
+                  <div class="swiper-slide min-vh-lg-100"> <img class="fit-cover vh-lg-100 w-100" src="../../assets/img/portfolio-02.jpg" alt="" /></div>
+                  <div class="swiper-slide min-vh-lg-100"> <img class="fit-cover vh-lg-100 w-100" src="../../assets/img/portfolio-03.jpg" alt="" /></div>
                 </div>
                 <div class="swiper-pagination"></div>
                 <div class="swiper-nav">
@@ -160,7 +159,7 @@
                 <div class="col-lg-10">
                   <div data-zanim-timeline='{"delay":0.4}' data-zanim-trigger="scroll">
                     <div class="overflow-hidden">
-                      <div data-zanim-xs='{"delay":0.1}'><a class="btn btn-link ps-0 text-black shadow-none" href="../pages/portfolio.html"><span class="fas fa-chevron-left" data-fa-transform="down-1"></span><span class="ps-2 fw-bold">portfolio showcase</span></a></div>
+                      <div data-zanim-xs='{"delay":0.1}'><a class="btn btn-link ps-0 text-black shadow-none" href="../../pages/portfolio.html"><span class="fas fa-chevron-left" data-fa-transform="down-1"></span><span class="ps-2 fw-bold">portfolio showcase</span></a></div>
                     </div>
                     <div class="overflow-hidden">
                       <h2 data-zanim-xs='{"delay":0.2}'>Next gen web interface design</h2>
@@ -224,11 +223,11 @@
                     </div>
                   </div>
                   <div class="row my-6">
-                    <div class="col-sm-6"><img class="rounded img-fluid" src="../assets/img/portfolio-06.jpg" alt="" data-zanim-xs='{"delay":0.1,"animation":"zoom-in"}' data-zanim-trigger="scroll" /></div>
-                    <div class="col-sm-6 mt-4 mt-sm-0"><img class="rounded img-fluid" src="../assets/img/portfolio-09.jpg" alt="" data-zanim-xs='{"delay":0.2,"animation":"zoom-in"}' data-zanim-trigger="scroll" /></div>
+                    <div class="col-sm-6"><img class="rounded img-fluid" src="../../assets/img/portfolio-06.jpg" alt="" data-zanim-xs='{"delay":0.1,"animation":"zoom-in"}' data-zanim-trigger="scroll" /></div>
+                    <div class="col-sm-6 mt-4 mt-sm-0"><img class="rounded img-fluid" src="../../assets/img/portfolio-09.jpg" alt="" data-zanim-xs='{"delay":0.2,"animation":"zoom-in"}' data-zanim-trigger="scroll" /></div>
                     <div class="col mt-4">
                       <div class="position-relative pt-8 pt-lg-11 pb-4 px-4 rounded text-end overflow-hidden">
-                        <div class="bg-holder" style="background-image:url(../assets/img/portfolio-04.jpg);" data-zanim-trigger="scroll" data-zanim-xs='{"delay":0.3,"animation":"zoom-in"}'>
+                        <div class="bg-holder" style="background-image:url(../../assets/img/portfolio-04.jpg);" data-zanim-trigger="scroll" data-zanim-xs='{"delay":0.3,"animation":"zoom-in"}'>
                         </div>
                         <!--/.bg-holder-->
                         <a class="video-modal" href="https://www.youtube.com/watch?v=AK2U977acCE" data-start="6" data-end="168">
@@ -277,12 +276,12 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-sm-5"><a class="text-black" href="#!"><img class="rounded img-fluid" src="../assets/img/portfolio-07.jpg" alt="" data-zanim-xs='{"delay":0.1,"animation":"zoom-in"}' data-zanim-trigger="scroll" />
+                <div class="col-sm-5"><a class="text-black" href="#!"><img class="rounded img-fluid" src="../../assets/img/portfolio-07.jpg" alt="" data-zanim-xs='{"delay":0.1,"animation":"zoom-in"}' data-zanim-trigger="scroll" />
                     <div class="overflow-hidden">
                       <h4 class="mt-3" data-zanim-xs='{"delay":0.2}' data-zanim-trigger="scroll">Redefining web design through experience</h4>
                     </div>
                   </a></div>
-                <div class="col-sm-5 mt-4 mt-sm-0"><a class="text-black" href="#!"><img class="rounded img-fluid" src="../assets/img/portfolio-08.jpg" alt="" data-zanim-xs='{"delay":0.1,"animation":"zoom-in"}' data-zanim-trigger="scroll" />
+                <div class="col-sm-5 mt-4 mt-sm-0"><a class="text-black" href="#!"><img class="rounded img-fluid" src="../../assets/img/portfolio-08.jpg" alt="" data-zanim-xs='{"delay":0.1,"animation":"zoom-in"}' data-zanim-trigger="scroll" />
                     <div class="overflow-hidden">
                       <h4 class="mt-3" data-zanim-xs='{"delay":0.2}' data-zanim-trigger="scroll">New sparrow animated HTML5 template</h4>
                     </div>
@@ -343,9 +342,9 @@
             <div class="modal-body text-center p-0">
               <button class="btn-close text-white position-absolute top-0 end-0 times-icon mt-2 me-2 p-0" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
               <ul class="list-unstyled my-0 py-4 font-sans-serif">
-                <li><a class="text-white fw-bold pt-1 d-block" href="../homes/default.html">English</a></li>
+                <li><a class="text-white fw-bold pt-1 d-block" href="../../homes/default.html">English</a></li>
                 <li><a class="pt-1 d-block text-500" href="#!">Français</a></li>
-                <li><a class="text-500 pt-1 d-block" href="../pages/rtl.html">عربى</a></li>
+                <li><a class="text-500 pt-1 d-block" href="../../pages/rtl.html">عربى</a></li>
                 <li><a class="pt-1 d-block text-500" href="#!">Deutsche</a></li>
               </ul>
             </div>
@@ -358,18 +357,18 @@
     <!-- ===============================================-->
     <!--    JavaScripts-->
     <!-- ===============================================-->
-    <script src="../vendors/popper/popper.min.js"></script>
-    <script src="../vendors/bootstrap/bootstrap.min.js"></script>
-    <script src="../vendors/anchorjs/anchor.min.js"></script>
-    <script src="../vendors/is/is.min.js"></script>
-    <script src="../vendors/swiper/swiper-bundle.min.js"></script>
-    <script src="../vendors/fontawesome/all.min.js"></script>
-    <script src="../vendors/lodash/lodash.min.js"></script>
+    <script src="../../vendors/popper/popper.min.js"></script>
+    <script src="../../vendors/bootstrap/bootstrap.min.js"></script>
+    <script src="../../vendors/anchorjs/anchor.min.js"></script>
+    <script src="../../vendors/is/is.min.js"></script>
+    <script src="../../vendors/swiper/swiper-bundle.min.js"></script>
+    <script src="../../vendors/fontawesome/all.min.js"></script>
+    <script src="../../vendors/lodash/lodash.min.js"></script>
     <script src="https://polyfill.io/v3/polyfill.min.js?features=window.scroll"></script>
-    <script src="../vendors/imagesloaded/imagesloaded.pkgd.js"></script>
-    <script src="../vendors/gsap/gsap.js"></script>
-    <script src="../vendors/gsap/customEase.js"></script>
-    <script src="../vendors/gsap/drawSVGPlugin.js"></script>
+    <script src="../../vendors/imagesloaded/imagesloaded.pkgd.js"></script>
+    <script src="../../vendors/gsap/gsap.js"></script>
+    <script src="../../vendors/gsap/customEase.js"></script>
+    <script src="../../vendors/gsap/drawSVGPlugin.js"></script>
     <!-- Global site tag (gtag.js) - Google Analytics-->
     <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-122907869-1"></script>
     <script>
@@ -381,7 +380,7 @@
       gtag('js', new Date());
       gtag('config', 'UA-122907869-1');
     </script>
-    <script src="../assets/js/theme.js"></script>
+    <script src="../../assets/js/theme.js"></script>
 
   </body>
 
