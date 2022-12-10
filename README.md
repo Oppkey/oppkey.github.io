@@ -9,10 +9,14 @@ for new Oppkey design.
 
 ## people
 
-HTML id tags
+### section navigation
 
-- `#top`
-- `#founders`
-- `#network`
+| HTML id  | url |
+| -------- | ------ |
+| `#top`   | [https://oppkey.github.io/pages/people.html#top](https://oppkey.github.io/pages/people.html#top) |
+| `#founders` | [https://oppkey.github.io/pages/people.html#founders](https://oppkey.github.io/pages/people.html#founders)   |
+| `#network` |  | 
+
+
 - `#slack`
 - `#board`
