@@ -5,4 +5,14 @@ for new Oppkey design.
 
 [live site](https://oppkey.github.io)
 
-* Sparrow version 2.1.0
+- Sparrow version 2.1.0
+
+## people
+
+HTML id tags
+
+- `#top`
+- `#founders`
+- `#network`
+- `#slack`
+- `#board`
