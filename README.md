@@ -15,8 +15,7 @@ for new Oppkey design.
 | -------- | ------ |
 | `#top`   | [https://oppkey.github.io/pages/people.html#top](https://oppkey.github.io/pages/people.html#top) |
 | `#founders` | [https://oppkey.github.io/pages/people.html#founders](https://oppkey.github.io/pages/people.html#founders)   |
-| `#network` |  | 
+| `#oppkeynetwork` | [https://oppkey.github.io/pages/people.html#oppkeynetwork](https://oppkey.github.io/pages/people.html#oppkeynetwork)  | 
+| `#slack` | [https://oppkey.github.io/pages/people.html#slack](https://oppkey.github.io/pages/people.html#slack) |
+| `#board` | [https://oppkey.github.io/pages/people.html#board](https://oppkey.github.io/pages/people.html#board) |
 
-
-- `#slack`
-- `#board`
