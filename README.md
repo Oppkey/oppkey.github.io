@@ -25,3 +25,10 @@ for new Oppkey design.
 | ------ | ---- |
 | ![variant 1](readme_assets/logos/oppkey_logo_o_1.png) | ![variant 2](readme_assets/logos/oppkey_logo_o_2.png)  |
 | ![variant 3](readme_assets/logos/oppkey_logo_o_3.png) | ![key](readme_assets/logos/oppkey_logo_key.png) |
+
+## favicon
+
+![favicon sizes](readme_assets/logos/favicon_row.png)
+
+* used [favicon-converter](https://favicon.io/favicon-converter/)
+
