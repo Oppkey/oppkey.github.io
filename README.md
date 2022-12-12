@@ -19,3 +19,9 @@ for new Oppkey design.
 | `#slack` | [https://oppkey.github.io/pages/people.html#slack](https://oppkey.github.io/pages/people.html#slack) |
 | `#board` | [https://oppkey.github.io/pages/people.html#board](https://oppkey.github.io/pages/people.html#board) |
 
+## logo variants
+
+| | | 
+| ------ | ---- |
+| ![variant 1](readme_assets/logos/oppkey_logo_o_1.png) | ![variant 2](readme_assets/logos/oppkey_logo_o_2.png)  |
+| ![variant 3](readme_assets/logos/oppkey_logo_o_3.png) | ![key](readme_assets/logos/oppkey_logo_key.png) |
